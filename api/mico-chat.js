@@ -13,7 +13,7 @@ export default async function handler(request) {
     console.log("Before OpenAI call");
 
     const response = await client.responses.create({
-      model: "gpt-5",
+      model: "gpt-5.6-luna",
       input: "Say hello in one sentence"
     });
 
